@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> 
+   <link rel="stylesheet" href="css/common.css">
+   <link rel="stylesheet" href="css/res.css">
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script defer src="js/main.js"></script>
+</head>
+<body>
+   <header>
+      <div class="container-xl">
+         <div class="header_wrap row align-items-center justify-content-center">
+            <div class="logo col-auto">
+               <h1><a href="#"><img src="img/royal_logo.png" alt="로얄 코펜하겐"></a></h1>
+            </div>
+            <div class="right_wrap col-auto">
+               <div class=" row justify-content-end align-items-center">
+                  <div class="col-auto">
+                     <div class="search"><span class="text-hide">검색하기</span><i class="bi bi-search"></i></div>
+                  </div>
+                  <div class="cart col-auto">
+                     <a href="#"><span class="text-hide">장바구니</span><i class="bi bi-basket"></i></a>
+                  </div>
+                  <div class="login col-auto">
+                     <a href="#"><span class="text-hide">로그인</span><i class="bi bi-person"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="menu_btn">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+      </div>   
+      <nav class="gnb col">
+         <div class="container-xl">
+            <ul class="header_menu d-flex text-center">
+               <li>
+                  <a href="#">제품 라인</a>
+                  <div class="sub_menu_wrap text-start">
+                     <div class="container-xl">
+                        <ul class="sub_menu">
+                           <li class="overview"><a href="#">모든 제품 라인</a></li>
+                           <li><a href="#">블루 풀 레이스</a></li>
+                           <li><a href="#">블루 하프 레이스</a></li>
+                           <li><a href="#">블루 플레인</a></li>
+                           <li><a href="#">블롬스트</a></li>
+                           <li><a href="#">로얄 크리처스</a></li>
+                           <li><a href="#">블루 엘레먼츠</a></li>
+                           <li><a href="#">멀티 컬러 엘레먼츠</a></li>
+                           <li><a href="#">블루 메가</a></li>
+                           <li><a href="#">메가 로즈</a></li>
+                           <li><a href="#">프린세스</a></li>
+                           <li><a href="#">블루 팔메테</a></li>
+                           <li><a href="#">팔메테 블로썸</a></li>
+                           <li><a href="#">화이트 풀 레이스</a></li>
+                           <li><a href="#">화이트 하프 레이스</a></li>
+                           <li><a href="#">화이트 엘레먼츠</a></li>
+                           <li><a href="#">화이트 플레인</a></li>
+                           <li><a href="#">히스토리 기프트</a></li>
+                           <li><a href="#">하우</a></li>
+                           <li><a href="#">알파벳 컬렉션</a></li>
+                           <li><a href="#">시걸</a></li>
+                           <li><a href="#">블루 라인</a></li>
+                           <li><a href="#">블랙 플레인</a></li>
+                           <li><a href="#">블랙 메가</a></li>
+                           <li><a href="#">빙앤그론달 컬렉터블</a></li>
+                           <li><a href="#">로얄코펜하겐 컬렉터블</a></li>
+                           <li><a href="#">컨트라스트</a></li>
+                           <li><a href="#">스타 플루티드</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <a href="#">제품 모양</a>
+                  <div class="sub_menu_wrap">
+                     <div class="container-xl">
+                        <ul class="sub_menu">
+                           <li><a href="#">한식기</a></li>
+                           <li><a href="#">접시</a></li>
+                           <li><a href="#">볼</a></li>
+                           <li><a href="#">컵&머그</a></li>
+                           <li><a href="#">티팟</a></li>
+                           <li><a href="#">서빙</a></li>
+                           <li><a href="#">화병</a></li>
+                           <li><a href="#">기타</a></li>
+                           <li><a href="#">모두 보기</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <a href="#">신제품</a>
+                  <div class="sub_menu_wrap">
+                     <div class="container-xl">
+                        <ul class="sub_menu row">
+                           <li><a href="#">2022 하반기 신제품</a></li>
+                           <li><a href="#">최신작 로얄 크리처스</a></li>
+                           <li><a href="#">2022 한정판 컬렉터블</a></li>
+                           <li><a href="#">모두 보기</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <a href="#">브랜드</a>
+                  <div class="sub_menu_wrap">
+                     <div class="container-xl">
+                        <ul class="sub_menu text-start">
+                           <li class="overview brand">
+                              <a href="#">인스퍼레이션</a>
+                              <ul class="brand_sub">
+                                 <li><a href="#">감동적인 선물</a></li>
+                                 <li><a href="#">240주년 히스토리</a></li>
+                                 <li><a href="#">플로라 다니카</a></li>
+                                 <li><a href="#">소중한 순간</a></li>
+                                 <li><a href="#">테이블 세팅</a></li>
+                                 <li><a href="#">크리스마스</a></li>
+                              </ul>
+                           </li>
+            
+                           <li class="overview brand">
+                              <a href="#">우리의 열정</a>
+                              <ul class="brand_sub">
+                                 <li><a href="#">열정을 더한 블루</a></li>
+                                 <li><a href="#">헤리티지</a></li>
+                                 <li><a href="#">마크와 백스탬프</a></li>
+                                 <li><a href="#">장인정신</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <a href="#">공식몰단독</a>
+                  <div class="sub_menu_wrap">
+                     <div class="container-xl">
+                        <ul class="sub_menu">
+                           <li><a href="#">공식몰 단독 상품</a></li>
+                           <li><a href="#">공식몰 단독 프로모션</a></li>
+                           <li><a href="#">모두 보기</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <a href="#">프로모션</a>
+                  <div class="sub_menu_wrap">
+                     <div class="container-xl">
+                        <ul class="sub_menu">
+                           <li><a href="#">2022 F/W 로얄웨딩</a></li>
+                           <li><a href="#">이 달의 프로모션</a></li>
+                           <li><a href="#">한식기 프로모션</a></li>
+                           <li><a href="#">공식몰 단독 프로모션</a></li>
+                           <li><a href="#">모두 보기</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+
+   <section id="main_visual">
+      <div class="main_visual_wrap">
+         <ul class="slide_list swiper-wrapper">
+            <li class="swiper-slide">
+               <img src="img/main_visual1.jpg" alt="알파벳 프로모션">
+               <div class="visual_txt_wrap">
+                  <h2>알파벳 프로모션</h2>
+                  <p>공식몰 단독 알파벳 머그, 접시 10% OFF</p>
+                  <a href="#" class="more">더보기</a>
+               </div>
+            </li>
+            <li class="swiper-slide">
+               <img src="img/main_visual2.jpg" alt="아름다운 한식기">
+               <div class="visual_txt_wrap">
+                  <h2>아름다운 한식기</h2>
+                  <p>품격이 깃든 블루 풀레이스 한식 그릇</p>
+                  <a href="#" class="more">더보기</a>
+               </div>
+            </li>
+            <li class="swiper-slide">
+               <img src="img/main_visual3.jpg" alt="웨딩 캠페인">
+               <div class="visual_txt_wrap right_visual">
+                  <h2>웨딩 캠페인</h2>
+                  <p>2022 F/W 로얄웨딩 에디션 한정 출시</p>
+                  <a href="#" class="more">더보기</a>
+               </div>
+            </li>
+            <li class="swiper-slide">
+               <img src="img/main_visual4.jpg" alt="가을맞이 신제품">
+               <div class="visual_txt_wrap">
+                  <h2>가을맞이 신제품</h2>
+                  <p>로얄코펜하겐의 매력적인 하반기 신제품</p>
+                  <a href="#" class="more">더보기</a>
+               </div>
+            </li>
+            <li class="swiper-slide">
+               <img src="img/main_visual5.jpg" alt="로얄 크리처스">
+               <div class="visual_txt_wrap">
+                  <h2>로얄 크리처스</h2>
+                  <p>바다 생물 모티프를 핸드페인팅한 최신작</p>
+                  <a href="#" class="more">더보기</a>
+               </div>
+            </li>
+         </ul>
+         <div class="swiper-pagination"></div>
+      </div>
+   </section>
+   <section id="gift">
+      <div class="container-xl"> 
+         <div class="list_title">
+            <h3>덴마크 왕실 도자기 선물 제안</h3>
+            <p>수백, 수천번의 붓질과 수공예로 만든 도자기 세트는 특별한 선물이 될겁니다.</p>
+         </div>
+         <ul class="gift_list d-flex">
+            <li class="">
+               <a href="#">
+                  <span class="set">SET</span>
+                  <span class="img_wrap">
+                     <figure><picture><img src="img/gift1.jpg" alt="로얄 웨딩 에디션"></picture></figure>
+                  </span>
+                  <span class="line_name">블루 하프 레이스</span>
+                  <span class="name">로얄 웨딩 에디션 (고급 옻칠 나무 수저세트 2P 증정)</span>
+                  <span class="discount_price">2,500,000원</span>
+                  <span class="price discount">3,030,000원</span>
+               </a>
+               <div class="put_in_cart"><button>장바구니 담기</button></div>
+            </li>
+            <li class="">
+               <a href="#">
+                  <span class="set">SET</span>
+                  <span class="img_wrap">
+                     <figure><picture><img src="img/gift2.jpg" alt="오발 디쉬 24.5cm 2개"></picture></figure>
+                  </span>
+                  <span class="line_name">프린세스</span>
+                  <span class="name">오발 디쉬 24.5cm 2개</span>
+                  <span class="discount_price">216,000원</span>
+                  <span class="price discount">270,000원</span>
+               </a>
+               <div class="put_in_cart"><button>장바구니 담기</button></div>
+            </li>
+            <li class="">
+               <a href="#">
+                  <span class="set">SET</span>
+                  <span class="img_wrap">
+                     <figure><picture><img src="img/gift3.jpg" alt="에스프레소 컵앤소서 90ml 2개"></picture></figure>
+                  </span>
+                  <span class="line_name">블루 엘레먼츠</span>
+                  <span class="name">에스프레소 컵앤소서 90ml 2개</span>
+                  <span class="discount_price">208,000원</span>
+                  <span class="price discount">260,000원</span>
+               </a>
+               <div class="put_in_cart"><button>장바구니 담기</button></div>
+            </li>
+            <li class="">
+               <a href="#">
+                  <span class="set">SET</span>
+                  <span class="img_wrap">
+                     <figure><picture><img src="img/gift4.jpg" alt="한식기 2인조 에센셜 스타터 세트"></picture></figure>
+                  </span>
+                  <span class="line_name">블루 팔메테</span>
+                  <span class="name">한식기 2인조 에센셜 스타터 세트</span>
+                  <span class="discount_price">571,500원</span>
+                  <span class="price discount">762,000원</span>
+               </a>
+               <div class="put_in_cart"><button>장바구니 담기</button></div>
+            </li>
+         </ul>
+      </div>
+   </section>
+   <section id="monthly_promotion">
+      <div class="wrapper row flex-row-reverse">
+         <div class="promotion_img_wrap col-lg-6">
+            <img src="img/promotion.jpg" alt="이 달의 프로모션">
+         </div>
+         <div class="promotion_txt_wrap col-lg-6 d-flex align-items-center">
+            <div class="txt_box">
+               <h3>이 달의 프로모션</h3>
+               <p>아름다운 수공예 도자기. 로얄코펜하겐이 준비한 월별 프로모션 혜택으로 만나보세요.</p>
+               <div class="button_wrap">
+                  <a href="#" class="more">더보기</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>  
+   <section id="product_lines">
+      <div class="container-xl">
+         <div class="list_title">
+            <h3>대표 제품 라인</h3>
+         </div>
+         <ul class="product_lines_list row">
+            <li class="col-md-6 col-xl-3">
+               <a href="#">
+                  <span><img src="img/product_lines1.jpg" alt="블루 플레인"></span>
+                  <span class="lines_title">블루 플레인</span>
+                  <p>1775년 브랜드와 함께 탄생한 블루 플레인. 로얄코펜하겐이 디자인한 최초의 디너웨어 라인으로, 수백년 전과 동일한 핸드페인팅 기법으로 완성합니다.</p>
+                  <span class="pr_more">더보기</span>
+               </a>
+            </li>
+            <li class="col-md-6 col-xl-3">
+               <a href="#">
+                  <span><img src="img/product_lines2.jpg" alt="블루 하프 레이스"></span>
+                  <span class="lines_title">블루 하프 레이스</span>
+                  <p>상징적인 블루 플레인 디자인을 기반으로 섬세한 레이스 장식을 더한 블루 하프 레이스. 핸드페인팅 장식이 우아한 매력을 펼칩니다.</p>
+                  <span class="pr_more">더보기</span>
+               </a>
+            </li>
+            <li class="col-md-6 col-xl-3">
+               <a href="#">
+                  <span><img src="img/product_lines3.jpg" alt="블루 메가"></span>
+                  <span class="lines_title">블루 메가</span>
+                  <p>전통을 바탕으로 한 새로운 창조. 블루 메가는 기존의 패턴 모티브를 큼직하게 확대해 모던하고 감각적입니다.</p>
+                  <span class="pr_more">더보기</span>
+               </a>
+            </li>
+            <li class="col-md-6 col-xl-3">
+               <a href="#">
+                  <span><img src="img/product_lines4.jpg" alt="로얄 크리처스"></span>
+                  <span class="lines_title">로얄 크리처스</span>
+                  <p>로얄코펜하겐의 최신작 로얄 크리처스는 바다로의 탐험을 주제로 한 플레이풀한 모티브가 특징입니다.</p>
+                  <span class="pr_more">더보기</span>
+               </a>
+            </li>
+         </ul>
+      </div>
+   </section>
+   <section id="member_info">
+      <div class="wrapper">
+         <article class="row">
+            <div class="info_img_wrap col-lg-5">
+               <img src="img/broken_banner.jpg" alt="파손보증제도">
+            </div>
+            <div class="info_txt_wrap col-lg-7">
+               <div class="txt_box">
+                  <h3>파손보증제도</h3>
+                  <p>공식 구매처 구입 고객을 위한 차별화된 서비스.<br>2년 내 파손시 새 제품으로 무상 교환해드립니다.</p>
+                  <div class="button_wrap">
+                     <a href="#" class="more">파손보증제도 바로가기</a>
+                  </div>
+               </div>
+            </div>
+         </article>
+         <article class="row flex-row-reverse">
+            <div class="info_img_wrap col-lg-5">
+               <img src="img/join_banner.jpg" alt="공식몰 회원가입 혜택">
+            </div>
+            <div class="info_txt_wrap col-lg-7 member_txt">
+               <div class="txt_box">
+                  <h3>공식몰 회원가입 혜택</h3>
+                  <p>신규 회원가입시 5천 포인트 지급,<br>
+                     구매시 10% 포인트 적립,<br>
+                     프로모션 및 신제품 안내 등 공식 온라인몰 회원 혜택을 누리세요.</p>
+                  <div class="button_wrap">
+                     <a href="#" class="more">회원가입하기</a>
+                  </div>
+               </div>
+         </article>
+      </div>
+   </section>
+   <footer>
+      <div class="container-xl">
+         <div class="row">
+            <div class="customer_center col-xl-3 accordion accordion-flush">
+               <div class="accordion-item">
+                  <h4 class="accordion-header" id="flush-headingOne"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">고객센터</button></h4>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" >
+                     <ul class="accordion-body">
+                        <li><a href="#">1:1 문의</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">파손보증제도</a></li>
+                        <li><a href="#">배송정책</a></li>
+                        <li><a href="#">교환, 환불 안내</a></li>
+                        <li><a href="#">취급주의사항</a></li>
+                        <li><a href="#">온라인 회원 혜택</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="policy col-xl-3 accordion accordion-flush">
+               <div class="accordion-item">
+                  <h4 class="accordion-header" id="flush-headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">정책</button></h4>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo">
+                     <ul class="accordion-body">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="brand col-xl-3 accordion accordion-flush">
+               <div class="accordion-item">
+                  <h4 class="accordion-header" id="flush-headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">브랜드</button></h4>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree">
+                     <ul class="accordion-body">
+                        <li><a href="#">브랜드 스토리</a></li>
+                        <li><a href="#">매장안내</a></li>
+                        <li><a href="#">디자인 및 상표권</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="sns col-xl-3 accordion accordion-flush">
+               <div class="accordion-item">
+                  <h4 class="accordion-header" id="flush-headingFour"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">소셜 네트워크</button></h4>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour">
+                     <ul class="accordion-body">
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="foot_info">
+         <div class="adr">
+            <span>한국로얄코펜하겐(주) </span><span>| 서울시 강남구 논현동58-9 미디어센터빌딩 3층 </span><span>| 02-749-2002</span>
+         </div>
+         <div class="company_info">
+            <span>사업자등록번호:106-81-57227 </span><span>| 통신판매업신고번호:제2008-서울강남-1300호 </span><span>| 대표이사:라스요한헤드버그</span>
+         </div>
+         <div class="copyright">&copy; Copyright All rights reserved</div>
+      </div>
+   </footer>
+</body>
+</html>
